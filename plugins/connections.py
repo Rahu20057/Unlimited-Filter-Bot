@@ -56,7 +56,7 @@ async def addconnection(client,message):
             addcon = await add_connection(str(group_id), str(userid))
             if addcon:
                 await message.reply_text(
-                    f"Sucessfully connected to **{title}**\nNow manage your group from my pm !",
+                    f"✔️ Sucessfully connected to **{title}**\nNow manage your group from my pm !",
                     quote=True,
                     parse_mode="md"
                 )
@@ -68,7 +68,7 @@ async def addconnection(client,message):
                     )
             else:
                 await message.reply_text(
-                    "You're already connected to this chat!",
+                    "You're already connected to this chat😅!",
                     quote=True
                 )
         else:
@@ -88,7 +88,7 @@ async def deleteconnection(client,message):
     chat_type = message.chat.type
 
     if chat_type == "private":
-        await message.reply_text("Run /connections to view or disconnect from groups!", quote=True)
+        await message.reply_text("Run _/connections_ to *view* or *disconnect* from groups!", quote=True)
 
     elif (chat_type == "group") or (chat_type == "supergroup"):
         group_id = message.chat.id
@@ -99,7 +99,7 @@ async def deleteconnection(client,message):
 
         delcon = await delete_connection(str(userid), str(group_id))
         if delcon:
-            await message.reply_text("Successfully disconnected from this chat", quote=True)
+            await message.reply_text("✔️ Successfully disconnected from this chat", quote=True)
         else:
             await message.reply_text("This chat isn't connected to me!\nDo /connect to connect.", quote=True)
 
@@ -111,7 +111,7 @@ async def connections(client,message):
     groupids = await all_connections(str(userid))
     if groupids is None:
         await message.reply_text(
-            "There are no active connections!! Connect to some groups first.",
+            "There are no active *connections*!! Connect to some groups first.",
             quote=True
         )
         return
@@ -136,7 +136,7 @@ async def connections(client,message):
             pass
     if buttons:
         await message.reply_text(
-            "Your connected group details ;\n\n",
+            "👉 Your *connected* group details ;\n\n",
             reply_markup=InlineKeyboardMarkup(buttons),
             quote=True
         )
