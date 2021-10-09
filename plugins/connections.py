@@ -88,7 +88,7 @@ async def deleteconnection(client,message):
     chat_type = message.chat.type
 
     if chat_type == "private":
-        await message.reply_text("Run _/connections_ to *view* or *disconnect* from groups!", quote=True)
+        await message.reply_text("Run _/connections_ to view or disconnect from groups!", quote=True)
 
     elif (chat_type == "group") or (chat_type == "supergroup"):
         group_id = message.chat.id
@@ -111,7 +111,7 @@ async def connections(client,message):
     groupids = await all_connections(str(userid))
     if groupids is None:
         await message.reply_text(
-            "There are no active *connections*!! Connect to some groups first.",
+            "There are no active connections!! Connect to some groups first.",
             quote=True
         )
         return
@@ -136,7 +136,7 @@ async def connections(client,message):
             pass
     if buttons:
         await message.reply_text(
-            "👉 Your *connected* group details ;\n\n",
+            "👉 Your connected group details ;\n\n",
             reply_markup=InlineKeyboardMarkup(buttons),
             quote=True
         )
