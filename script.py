@@ -26,7 +26,7 @@ Send <i>/help</i> for commands and more details...</b>
 
 <code>/del name</code>  -  Delete filter
 
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
+<code>/delall</code>  -  Delete entire filters..
 
 <code>/viewfilters</code>  -  List all filters in chat
 
@@ -45,7 +45,7 @@ Send <i>/help</i> for commands and more details...</b>
 
 /id  -  Shows ID information
 
-info - Reply to some message for their details.. 
+/info - Reply to some message for their details.. 
 
 
 <b>© @CP_Archivedmovies</b>
