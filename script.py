@@ -10,17 +10,17 @@ Send <i>/help</i> for commands and more details...</b>
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
+<i>┈•••✿ 𝐇𝐄𝐋𝐏 𝐃𝐄𝐓𝐀𝐈𝐋𝐒 ✿•••┈</i>
 
 
-<b>Basic Commands;</b>
+<b>🎯 Basic Commands</b>
 
-/start - Check if I'm alive!
+/start - Check if I'm alive 😴!
 /help - Command help
-/about - Something about me!
+/about - Something about me 😜!
 
 
-<b>Filter Commands;</b>
+<b>🎯 Filter Commands</b>
 
 <code>/add name reply</code>  -  Add filter for name
 
@@ -31,24 +31,24 @@ Send <i>/help</i> for commands and more details...</b>
 <code>/viewfilters</code>  -  List all filters in chat
 
 
-<b>Connection Commands;</b>
+<b>🎯 Connection Commands</b>
 
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
+<code>/connect groupid</code>  -  Connect your group to my PM.
+
 
 <code>/connections</code>  -  Manage your connections.
 
 
-<b>Extras;</b>
+<b>🎯 Extras</b>
 
-/status  -  Shows current status of your bot (Auth User Only)
+/status  -  Shows current status of bot.
 
 /id  -  Shows ID information
 
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
+info - Reply to some message for their details.. 
 
 
-<b>© @TroJanzHEX</b>
+<b>© @CP_Archivedmovies</b>
 """
 
 
