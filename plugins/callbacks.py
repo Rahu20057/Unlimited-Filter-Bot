@@ -70,7 +70,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/CP_Archivedmovies")
+                        "📢 Channel", url="https://t.me/CP_Archivedmovies")
                 ],
                 [
                     InlineKeyboardButton("⏪ BACK", callback_data="help_data"),
