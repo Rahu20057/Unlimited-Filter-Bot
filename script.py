@@ -48,7 +48,7 @@ Send <i>/help</i> for commands and more details...</b>
 /info - Reply to some message for their details.. 
 
 
-<b>© @CP_Archivedmovies</b>
+<b>© @CinemaPedikaGroup</b>
 """
 
 
