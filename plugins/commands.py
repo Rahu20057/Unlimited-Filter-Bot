@@ -265,7 +265,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/CP_Archivedmovies")
+                        "📢 Channel", url="https://t.me/CP_Archivedmovies")
                 ],
                 [
                     InlineKeyboardButton("⏪ BACK", callback_data="help_data"),
