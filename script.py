@@ -52,12 +52,12 @@ Send <i>/help</i> for commands and more details...</b>
 """
 
 
-    ABOUT_MSG = """📌<b>Name :</b> <a href='https://t.me/Filter_cs_bot'>Filter Beta #V3</a> 
+    ABOUT_MSG = """📌 <b>Name :</b> <a href='https://t.me/Filter_cs_bot'>Filter Beta #V3</a> 
 
-📌<b>Creater :</b> <a href='https://t.me/rahul_p_r_00'>This Person</a> 
+📌 <b>Creater :</b> <a href='https://t.me/rahul_p_r_00'>This Person</a> 
 
-📌<b>Language :</b> <code>Python3</code>
+📌 <b>Language :</b> <code>Python3</code>
 
-📌<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+📌 <b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
 """
