@@ -3,9 +3,9 @@ class Script(object):
     START_MSG = """<b>Hi 👋 {},
 
 Filter ചെയ്യാവുന്ന ഒരു കിടുക്കാച്ചി ബോട്ട് ആണ് ഞാൻ 😝!
-There is no practical limits 🤘 for my filtering capacity 💪...
+\nThere is no practical limits 🤘 for my filtering capacity 💪...
 
-Send <i>/help</i> for commands and more details...</b>
+Send /help for commands and more details...</b>
 """
 
 
